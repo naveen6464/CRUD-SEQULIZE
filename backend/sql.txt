@@ -1,0 +1,9 @@
+
+ 1.npm init -y
+ 2.npm install express mysql2 sequelize cors
+ 3.npm install --save-dev nodemon
+ 4.enter pakeage.json:"type": "module",
+ 5.table creation:
+     create table products(id int(11) primary key auto_increment,title varchar(200),price double,
+       createdAt date,updatedAt date);
+ 6.insert into products values(1,'phone','20000','2001-02-11','2001-12-23');
